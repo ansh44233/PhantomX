@@ -1,70 +1,62 @@
-<div align="center">
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20&height=200&section=header&text=PhantomX&fontSize=80&fontAlignY=38&animation=fadeIn&fontColor=ffffff&desc=Next-Gen%20Streaming%20by%20Ansh&descAlignY=58&descSize=20" width="100%" />
+</p>
 
-<br/>
+<p align="center">
+  <a href="https://github.com/ansh44233/PhantomX/stargazers"><img src="https://img.shields.io/github/stars/ansh44233/PhantomX?style=flat&color=8b5cf6&logo=github" alt="Stars" /></a>
+  <a href="https://github.com/ansh44233/PhantomX/network/members"><img src="https://img.shields.io/github/forks/ansh44233/PhantomX?style=flat&color=06b6d4&logo=github" alt="Forks" /></a>
+  <a href="https://github.com/ansh44233/PhantomX/issues"><img src="https://img.shields.io/github/issues/ansh44233/PhantomX?style=flat&color=8b5cf6" alt="Issues" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-06b6d4.svg?style=flat" alt="MIT license" /></a>
+</p>
 
-```
-██████╗ ██╗  ██╗ █████╗ ███╗   ██╗████████╗ ██████╗ ███╗   ███╗██╗  ██╗
-██╔══██╗██║  ██║██╔══██╗████╗  ██║╚══██╔══╝██╔═══██╗████╗ ████║╚██╗██╔╝
-██████╔╝███████║███████║██╔██╗ ██║   ██║   ██║   ██║██╔████╔██║ ╚███╔╝
-██╔═══╝ ██╔══██║██╔══██║██║╚██╗██║   ██║   ██║   ██║██║╚██╔╝██║ ██╔██╗
-██║     ██║  ██║██║  ██║██║ ╚████║   ██║   ╚██████╔╝██║ ╚═╝ ██║██╔╝ ██╗
-╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝    ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝
-```
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18.2-61DAFB?style=flat&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Electron-19.x-47848F?style=flat&logo=electron&logoColor=white" alt="Electron" />
+  <img src="https://img.shields.io/badge/Framer_Motion-6.x-FF4D4D?style=flat&logo=framer&logoColor=white" alt="Framer Motion" />
+  <img src="https://img.shields.io/badge/TMDB_API-powered-01B4E4?style=flat&logo=themoviedatabase&logoColor=white" alt="TMDB" />
+  <img src="https://img.shields.io/badge/Discord_RPC-integrated-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord" />
+</p>
 
-### 🎬 Next-Gen Streaming Experience — by [Ansh](https://github.com/ansh44233)
+<p align="center">
+  <strong>Stream movies, shows & anime. No ads. No fluff. Pure vibes.</strong>
+</p>
 
-<br/>
-
-[![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org)
-[![Electron](https://img.shields.io/badge/Electron-19.x-47848F?style=for-the-badge&logo=electron&logoColor=white)](https://electronjs.org)
-[![License](https://img.shields.io/badge/License-MIT-8b5cf6?style=for-the-badge)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/ansh44233/PhantomX?style=for-the-badge&color=06b6d4)](https://github.com/ansh44233/PhantomX/stargazers)
-[![Forks](https://img.shields.io/github/forks/ansh44233/PhantomX?style=for-the-badge&color=8b5cf6)](https://github.com/ansh44233/PhantomX/network/members)
-
-<br/>
-
-> Stream movies, shows, and anime. No ads. No fluff. Just vibes.
-
-<br/>
-
-[🚀 Live Demo](https://phantomx.vercel.app) · [🐛 Report Bug](https://github.com/ansh44233/PhantomX/issues) · [✨ Request Feature](https://github.com/ansh44233/PhantomX/issues)
-
-</div>
+<p align="center">
+  <a href="https://phantomx.vercel.app">🌐 Live Demo</a> ·
+  <a href="https://github.com/ansh44233/PhantomX/issues">🐛 Report Bug</a> ·
+  <a href="https://github.com/ansh44233/PhantomX/issues">✨ Feature Request</a>
+</p>
 
 ---
 
-## 🌟 Features
+## What is PhantomX?
 
-- 🎬 **Trending Content** — Movies, TV shows & anime updated daily via TMDB
-- 🔍 **Smart Search** — Real-time search with instant results
-- 🎵 **Built-in Music Player** — Dedicated music browsing section
-- 📱 **Fully Responsive** — Looks clean on mobile, tablet & desktop
-- 🌙 **Dark / Light Theme** — Toggle anytime, saved to preferences
-- 📚 **Personal Library** — Favorites, watch history & continue watching
-- 🎮 **Discord Rich Presence** — Flex what you're watching on Discord
-- 🖥️ **Native Desktop App** — Powered by Electron for a true app feel
-- 🔥 **Hover Trailers** — Cards auto-play YouTube trailers on hover
-- 📊 **Genre Filtering** — Filter everything by genre on the homepage
-- ⚡ **Glassmorphism UI** — Smooth animations via Framer Motion
-- 🛡️ **Ad Blocker** — Built-in content filtering for Electron mode
+PhantomX is a streaming platform UI built with React + Electron. Browse trending movies, TV shows and anime, search anything, manage your personal library, and stream — all wrapped in a clean glassmorphism interface with smooth animations.
+
+Built for the desktop. Works in the browser. Looks great everywhere.
 
 ---
 
-## 📸 Screenshots
+## Features
 
-<!-- Add screenshots here -->
-> Coming soon — feel free to contribute screenshots!
+| | Feature |
+|---|---|
+| 🎬 | Trending movies, TV shows & anime via TMDB |
+| 🔍 | Real-time search with instant results |
+| 🎵 | Built-in music player section |
+| 🔥 | Hover-to-play YouTube trailers on cards |
+| 📱 | Fully responsive — mobile + tablet + desktop |
+| 🌙 | Dark / Light theme toggle, saved to preferences |
+| 📚 | Library, favorites, watch history, continue watching |
+| 🎮 | Discord Rich Presence — flex what you're watching |
+| 🖥️ | Native desktop app via Electron |
+| 📊 | Genre filtering across all content |
+| ⚡ | Glassmorphism UI with Framer Motion animations |
+| 🛡️ | Built-in ad blocker (Electron mode) |
 
 ---
 
-## 🚀 Quick Start
-
-### Prerequisites
-- Node.js 16+
-- npm or yarn
-- A free [TMDB API key](https://www.themoviedb.org/settings/api)
-
-### Web App
+## Quick Start
 
 ```bash
 git clone https://github.com/ansh44233/PhantomX.git
@@ -75,68 +67,74 @@ npm start
 
 App runs at `http://localhost:3000`
 
-### Desktop App (Electron)
+### Desktop App
 
 ```bash
 npm run electron-dev
 ```
 
-> Opens the full desktop app with Discord RPC, adblocker, and native window controls.
+Launches the full Electron app with Discord RPC, adblocker, and native window controls.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
+
+<details>
+<summary><strong>Show full stack</strong></summary>
 
 | Layer | Tech |
 |---|---|
-| **UI Framework** | React 18 |
-| **Styling** | Styled Components + Tailwind utilities |
-| **Animations** | Framer Motion |
-| **Routing** | React Router v6 |
-| **Desktop** | Electron 19 |
-| **Data** | TMDB API |
-| **Discord** | discord-rpc |
-| **Icons** | react-icons (Feather) |
+| UI Framework | React 18 |
+| Styling | Styled Components |
+| Animations | Framer Motion |
+| Routing | React Router v6 |
+| Desktop Shell | Electron 19 |
+| Data Source | TMDB API |
+| Discord | discord-rpc |
+| Icons | react-icons (Feather set) |
+| Build | react-scripts (CRA) |
+
+</details>
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 <details>
-<summary>Click to expand</summary>
+<summary><strong>Expand file tree</strong></summary>
 
 ```
 PhantomX/
 ├── public/
-│   ├── electron.js          # Electron main process
-│   ├── preload.js           # Electron preload script
+│   ├── electron.js          # Main process
+│   ├── preload.js           # Electron preload
 │   └── index.html
 ├── src/
 │   ├── components/
-│   │   ├── HeroSection/     # Hero banner with trailer autoplay
-│   │   ├── ContentCard/     # Movie/show cards with hover trailers
-│   │   ├── ContentRow/      # Horizontal scrollable content rows
+│   │   ├── HeroSection/     # Hero banner + auto trailer
+│   │   ├── ContentCard/     # Cards with hover trailers
+│   │   ├── ContentRow/      # Horizontal scroll rows
 │   │   ├── Sidebar/         # Collapsible icon sidebar
-│   │   ├── Navbar/          # Top navigation bar
-│   │   ├── MobileHeader/    # Mobile top header
-│   │   └── MobileNavigation/# Bottom nav for mobile
+│   │   ├── Navbar/          # Desktop top nav
+│   │   ├── MobileHeader/    # Mobile header
+│   │   └── MobileNavigation/# Mobile bottom nav
 │   ├── pages/
-│   │   ├── Home/            # Main homepage
-│   │   ├── Search/          # Search page
-│   │   ├── MovieDetails/    # Movie/TV detail page
+│   │   ├── Home/            # Main feed
+│   │   ├── Search/          # Search
+│   │   ├── MovieDetails/    # Movie/TV detail view
 │   │   ├── Player/          # Video player
 │   │   ├── Music/           # Music section
 │   │   ├── Library/         # Saved content
 │   │   ├── Favorites/       # Favorited items
 │   │   └── History/         # Watch history
 │   ├── services/
-│   │   ├── tmdbApi.js       # TMDB API calls
+│   │   ├── tmdbApi.js       # TMDB API
 │   │   ├── discordRPC.js    # Discord Rich Presence
 │   │   ├── localStorage.js  # Local persistence
 │   │   └── trailerService.js
 │   └── styles/
 │       ├── GlobalStyle.js   # CSS variables & global styles
-│       └── theme.js         # Theme object
+│       └── theme.js
 └── package.json
 ```
 
@@ -144,61 +142,50 @@ PhantomX/
 
 ---
 
-## 🎨 Customization
+## Customization
 
-### Change Accent Color
-
-Edit `src/styles/GlobalStyle.js`:
+Change the accent color in `src/styles/GlobalStyle.js`:
 
 ```css
---accent-color: #8b5cf6;       /* primary purple */
---accent-secondary: #06b6d4;   /* cyan accent */
+--accent-color: #8b5cf6;      /* primary — purple */
+--accent-secondary: #06b6d4;  /* secondary — cyan */
 ```
 
-### Change Font
-
+Change font:
 ```css
 --font-family: 'Your Font', sans-serif;
 ```
 
-Add the font import to `public/index.html`.
+Add font import in `public/index.html`.
 
 ---
 
-## ⚙️ Environment Setup
+## Contributing
 
-Create a `.env` file in root (if the app requires API keys configured in services):
-
-```env
-REACT_APP_TMDB_API_KEY=your_tmdb_api_key_here
-```
-
----
-
-## 🤝 Contributing
-
-Pull requests are welcome. For major changes, please open an issue first.
+PRs are welcome.
 
 1. Fork the repo
-2. Create your branch: `git checkout -b feature/something-cool`
-3. Commit changes: `git commit -m 'add something cool'`
-4. Push: `git push origin feature/something-cool`
+2. Create your branch: `git checkout -b feature/your-idea`
+3. Commit: `git commit -m 'add your idea'`
+4. Push: `git push origin feature/your-idea`
 5. Open a PR
 
 ---
 
-## 📜 License
+## License
 
-MIT License — Copyright © 2024 Ansh
+MIT — Copyright © 2024 Ansh
 
-Feel free to use, modify, and distribute. Just don't be weird about it.
+Use it, modify it, ship it.
 
 ---
 
-<div align="center">
+<p align="center">
+  Built with 💜 by <a href="https://github.com/ansh44233"><strong>Ansh</strong></a>
+  <br /><br />
+  <a href="https://github.com/ansh44233/PhantomX/stargazers">⭐ Star it if you dig it</a>
+</p>
 
-Built with 💜 by **[Ansh](https://github.com/ansh44233)**
-
-⭐ Star the repo if you found it useful!
-
-</div>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20&height=100&section=footer" width="100%" />
+</p>

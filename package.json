@@ -6,6 +6,9 @@
   "main": "public/electron.js",
   "private": true,
   "homepage": "./",
+  "engines": {
+    "node": "20.x"
+  },
   "dependencies": {
     "@cliqz/adblocker-electron": "^1.34.0",
     "@ghostery/adblocker-electron": "^2.11.3",

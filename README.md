@@ -1,191 +1,204 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20&height=200&section=header&text=PhantomX&fontSize=80&fontAlignY=38&animation=fadeIn&fontColor=ffffff&desc=Next-Gen%20Streaming%20by%20Ansh&descAlignY=58&descSize=20" width="100%" />
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:09090b,50:312e81,100:0891b2&height=210&section=header&text=PhantomX&fontSize=76&fontColor=ffffff&fontAlignY=38&desc=A%20cinematic%20movie%20%26%20series%20discovery%20experience&descAlignY=60&descSize=16" width="100%" alt="PhantomX banner" />
+
+<p>
+  <a href="https://github.com/ansh44233/PhantomX/stargazers"><img src="https://img.shields.io/github/stars/ansh44233/PhantomX?style=for-the-badge&color=8b5cf6&label=STARS" alt="GitHub stars" /></a>
+  <a href="https://github.com/ansh44233/PhantomX/network/members"><img src="https://img.shields.io/github/forks/ansh44233/PhantomX?style=for-the-badge&color=0891b2&label=FORKS" alt="GitHub forks" /></a>
+  <a href="https://github.com/ansh44233/PhantomX/issues"><img src="https://img.shields.io/github/issues/ansh44233/PhantomX?style=for-the-badge&color=7c3aed" alt="Open issues" /></a>
+  <a href="https://github.com/ansh44233/PhantomX/commits/main"><img src="https://img.shields.io/github/last-commit/ansh44233/PhantomX?style=for-the-badge&color=0e7490" alt="Last commit" /></a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/ansh44233/PhantomX/stargazers"><img src="https://img.shields.io/github/stars/ansh44233/PhantomX?style=flat&color=8b5cf6&logo=github" alt="Stars" /></a>
-  <a href="https://github.com/ansh44233/PhantomX/network/members"><img src="https://img.shields.io/github/forks/ansh44233/PhantomX?style=flat&color=06b6d4&logo=github" alt="Forks" /></a>
-  <a href="https://github.com/ansh44233/PhantomX/issues"><img src="https://img.shields.io/github/issues/ansh44233/PhantomX?style=flat&color=8b5cf6" alt="Issues" /></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-06b6d4.svg?style=flat" alt="MIT license" /></a>
-</p>
+**Discover movies, TV shows and anime in one dark, cinematic interface.**
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-18.2-61DAFB?style=flat&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/Electron-19.x-47848F?style=flat&logo=electron&logoColor=white" alt="Electron" />
-  <img src="https://img.shields.io/badge/Framer_Motion-6.x-FF4D4D?style=flat&logo=framer&logoColor=white" alt="Framer Motion" />
-  <img src="https://img.shields.io/badge/TMDB_API-powered-01B4E4?style=flat&logo=themoviedatabase&logoColor=white" alt="TMDB" />
-  <img src="https://img.shields.io/badge/Discord_RPC-integrated-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord" />
-</p>
+[Repository](https://github.com/ansh44233/PhantomX) · [Report an issue](https://github.com/ansh44233/PhantomX/issues) · [Request a feature](https://github.com/ansh44233/PhantomX/issues)
 
-<p align="center">
-  <strong>Stream movies, shows & anime. No ads. No fluff. Pure vibes.</strong>
-</p>
-
-<p align="center">
-  <a href="https://phantomx.vercel.app">🌐 Live Demo</a> ·
-  <a href="https://github.com/ansh44233/PhantomX/issues">🐛 Report Bug</a> ·
-  <a href="https://github.com/ansh44233/PhantomX/issues">✨ Feature Request</a>
-</p>
+</div>
 
 ---
 
-## What is PhantomX?
+## Overview
 
-PhantomX is a streaming platform UI built with React + Electron. Browse trending movies, TV shows and anime, search anything, manage your personal library, and stream — all wrapped in a clean glassmorphism interface with smooth animations.
+**PhantomX** is a React-based entertainment discovery interface with an optional Electron desktop shell. It brings movie, TV and anime discovery, search, title details, personal lists and playback-provider selection into one responsive application.
 
-Built for the desktop. Works in the browser. Looks great everywhere.
+The web build is designed for static hosting (including Vercel). Electron-specific capabilities are available only when the desktop app is running.
 
----
+> **Project status:** Under active development. The repository contains the application source and deployment configuration; a successful production deployment and every feature/provider are not implied by this README.
 
-## Features
+## Highlights
 
-| | Feature |
+| Area | Included experience |
 |---|---|
-| 🎬 | Trending movies, TV shows & anime via TMDB |
-| 🔍 | Real-time search with instant results |
-| 🎵 | Built-in music player section |
-| 🔥 | Hover-to-play YouTube trailers on cards |
-| 📱 | Fully responsive — mobile + tablet + desktop |
-| 🌙 | Dark / Light theme toggle, saved to preferences |
-| 📚 | Library, favorites, watch history, continue watching |
-| 🎮 | Discord Rich Presence — flex what you're watching |
-| 🖥️ | Native desktop app via Electron |
-| 📊 | Genre filtering across all content |
-| ⚡ | Glassmorphism UI with Framer Motion animations |
-| 🛡️ | Built-in ad blocker (Electron mode) |
+| Discover | Trending, popular and top-rated movie and TV listings |
+| Search | Search across supported TMDB media categories |
+| Explore | Title details, genres, cast and related information where provided by TMDB |
+| Personal library | Favorites, watch history, saved items and continue-watching views |
+| Playback | Select from configured third-party embed providers when available |
+| Music | Dedicated music section in the application |
+| Personalization | Theme preferences and responsive layouts |
+| Desktop | Electron window, with desktop-only integrations such as Discord Rich Presence and ad-blocking components |
 
----
+**Provider availability note:** Playback embeds are supplied by external services. Their uptime, catalog, regional availability, content rights and browser compatibility are outside PhantomX\’s control. A provider appearing in the app does not mean its content is hosted by this project.
 
-## Quick Start
+## Preview
+
+The repository currently does not include verified, up-to-date product screenshots. The best preview is the running application after following the setup steps below.
+
+## Tech stack
+
+- **Frontend:** React 18
+- **Styling:** Styled Components
+- **Motion:** Framer Motion
+- **Routing:** React Router
+- **Metadata:** The Movie Database (TMDB) API
+- **Desktop wrapper:** Electron
+- **Icons:** React Icons and Lucide React
+- **Build system:** Create React App (react-scripts)
+
+## Run locally
+
+### Requirements
+
+- Node.js 20.x
+- npm (bundled with Node.js)
+- Git
+
+### Install and start the web app
 
 ```bash
 git clone https://github.com/ansh44233/PhantomX.git
 cd PhantomX
-npm install
+npm ci
 npm start
 ```
 
-App runs at `http://localhost:3000`
+Open [http://localhost:3000](http://localhost:3000).
 
-### Desktop App
+### Build for production
+
+```bash
+npm run build
+```
+
+The production-ready static files are generated in the `build/` directory.
+
+### Run the Electron desktop app
 
 ```bash
 npm run electron-dev
 ```
 
-Launches the full Electron app with Discord RPC, adblocker, and native window controls.
+This starts the React development server and opens the Electron desktop shell. Some integrations require their own desktop environment and may not work in a normal browser or hosted Vercel deployment.
 
----
+## Deploy to Vercel
 
-## Tech Stack
+PhantomX uses Create React App, so deploy the repository root as a static frontend.
 
-<details>
-<summary><strong>Show full stack</strong></summary>
+The included `vercel.json` provides the deployment settings. If configuring the project manually in Vercel, use:
 
-| Layer | Tech |
+| Setting | Value |
 |---|---|
-| UI Framework | React 18 |
-| Styling | Styled Components |
-| Animations | Framer Motion |
-| Routing | React Router v6 |
-| Desktop Shell | Electron 19 |
-| Data Source | TMDB API |
-| Discord | discord-rpc |
-| Icons | react-icons (Feather set) |
-| Build | react-scripts (CRA) |
+| Framework preset | Create React App |
+| Root directory | `./` |
+| Install command | `npm ci --ignore-scripts` |
+| Build command | `CI=false PUBLIC_URL=/ npm run build` |
+| Output directory | `build` |
+| Node.js version | `20.x` |
 
-</details>
+### Deployment checklist
 
----
+1. Import `ansh44233/PhantomX` into Vercel.
+2. Select the `main` branch.
+3. Confirm the settings above (or allow Vercel to read `vercel.json`).
+4. Start a deployment and open its **Build Logs** if it fails.
+5. After deployment, test the home page, a detail page, search and a refresh on a nested route.
 
-## Project Structure
+**Important:** Vercel hosts the React web frontend only. It does not run the Electron desktop shell, Discord Rich Presence, or desktop ad-blocking integrations.
 
-<details>
-<summary><strong>Expand file tree</strong></summary>
+## Configuration and data
 
-```
+- PhantomX uses TMDB for movie and TV metadata and artwork.
+- The TMDB API key currently resides in the frontend source. Anything shipped to a browser can be inspected by visitors; do not put private credentials or secrets in frontend code. Review the key\’s usage restrictions in your TMDB account.
+- Browser storage is local to the visitor\’s browser. It is not automatically synchronized between devices.
+- External playback providers may fail independently of the PhantomX interface.
+
+## Project structure
+
+```text
 PhantomX/
 ├── public/
-│   ├── electron.js          # Main process
-│   ├── preload.js           # Electron preload
+│   ├── electron.js
+│   ├── electron-no-discord.js
+│   ├── preload.js
 │   └── index.html
 ├── src/
-│   ├── components/
-│   │   ├── HeroSection/     # Hero banner + auto trailer
-│   │   ├── ContentCard/     # Cards with hover trailers
-│   │   ├── ContentRow/      # Horizontal scroll rows
-│   │   ├── Sidebar/         # Collapsible icon sidebar
-│   │   ├── Navbar/          # Desktop top nav
-│   │   ├── MobileHeader/    # Mobile header
-│   │   └── MobileNavigation/# Mobile bottom nav
-│   ├── pages/
-│   │   ├── Home/            # Main feed
-│   │   ├── Search/          # Search
-│   │   ├── MovieDetails/    # Movie/TV detail view
-│   │   ├── Player/          # Video player
-│   │   ├── Music/           # Music section
-│   │   ├── Library/         # Saved content
-│   │   ├── Favorites/       # Favorited items
-│   │   └── History/         # Watch history
-│   ├── services/
-│   │   ├── tmdbApi.js       # TMDB API
-│   │   ├── discordRPC.js    # Discord Rich Presence
-│   │   ├── localStorage.js  # Local persistence
-│   │   └── trailerService.js
-│   └── styles/
-│       ├── GlobalStyle.js   # CSS variables & global styles
-│       └── theme.js
-└── package.json
+│   ├── components/       # Shared interface components
+│   ├── pages/            # Home, search, details, player, library, etc.
+│   ├── services/         # TMDB, playback providers, storage, Discord
+│   ├── styles/           # Global styles and theme
+│   ├── App.js
+│   └── index.js
+├── package.json
+├── package-lock.json
+└── vercel.json
 ```
+
+## Troubleshooting
+
+<details>
+<summary><strong>Vercel build fails</strong></summary>
+
+- Check that the project is using Node.js 20.x.
+- Confirm the root directory is the repository root.
+- Confirm the output directory is `build`, not `dist`.
+- Read the first actual error in the Vercel Build Logs; the last line is often only a summary.
+- If dependency installation fails, check whether `package.json` and `package-lock.json` are in sync.
 
 </details>
 
----
+<details>
+<summary><strong>Page works locally but a refresh on Vercel returns 404</strong></summary>
 
-## Customization
+The Vercel rewrite in `vercel.json` sends application routes to `index.html`. Confirm that the latest deployment includes this file and that the project is deploying from the repository root.
 
-Change the accent color in `src/styles/GlobalStyle.js`:
+</details>
 
-```css
---accent-color: #8b5cf6;      /* primary — purple */
---accent-secondary: #06b6d4;  /* secondary — cyan */
-```
+<details>
+<summary><strong>Movies or images do not load</strong></summary>
 
-Change font:
-```css
---font-family: 'Your Font', sans-serif;
-```
+Check your network connection and TMDB API response. External API rate limits, key restrictions or service outages can affect metadata independently of the app.
 
-Add font import in `public/index.html`.
+</details>
 
----
+<details>
+<summary><strong>Playback does not start</strong></summary>
+
+Playback is provided by external embed services. Try another configured provider and check whether that provider supports the title, region and browser. PhantomX does not control third-party availability.
+
+</details>
 
 ## Contributing
 
-PRs are welcome.
+Contributions, bug reports and focused improvements are welcome.
 
-1. Fork the repo
-2. Create your branch: `git checkout -b feature/your-idea`
-3. Commit: `git commit -m 'add your idea'`
-4. Push: `git push origin feature/your-idea`
-5. Open a PR
+1. Fork the repository.
+2. Create a branch: `git checkout -b feature/your-change`.
+3. Make and test your change.
+4. Commit with a clear message.
+5. Push your branch and open a pull request.
 
----
+For bugs, include the browser/OS, steps to reproduce and the relevant console or deployment log. Never include API secrets or personal credentials in an issue.
 
 ## License
 
-MIT — Copyright © 2024 Ansh
-
-Use it, modify it, ship it.
+No license file is currently included in this repository. Until a license is added, the project should not be assumed to be available for unrestricted reuse, redistribution or commercial use.
 
 ---
 
-<p align="center">
-  Built with 💜 by <a href="https://github.com/ansh44233"><strong>Ansh</strong></a>
-  <br /><br />
-  <a href="https://github.com/ansh44233/PhantomX/stargazers">⭐ Star it if you dig it</a>
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20&height=100&section=footer" width="100%" />
-</p>
+**Built by [Ansh](https://github.com/ansh44233)**
+
+<a href="https://github.com/ansh44233/PhantomX">Explore PhantomX on GitHub</a>
+
+</div>

@@ -1,4 +1,8 @@
 {
+  "framework": "create-react-app",
+  "installCommand": "npm ci --ignore-scripts",
+  "buildCommand": "CI=false PUBLIC_URL=/ npm run build",
+  "outputDirectory": "build",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]

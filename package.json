@@ -119,8 +119,8 @@
     },
     "publish": {
       "provider": "github",
-      "owner": "your-username",
-      "repo": "voidstream"
+      "owner": "ansh44233",
+      "repo": "PhantomX"
     }
   }
 }

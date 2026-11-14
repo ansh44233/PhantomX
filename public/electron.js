@@ -4,12 +4,6 @@ const path = require('path');
 // Disable security warnings and enable API access
 process.env['ELECTRON_DISABLE_SECURITY_WARNINGS'] = 'true';
 
-// Add command line switches for better API access (must be before app ready)
-app.commandLine.appendSwitch('--disable-web-security');
-app.commandLine.appendSwitch('--disable-features', 'VizDisplayCompositor');
-app.commandLine.appendSwitch('--ignore-certificate-errors');
-app.commandLine.appendSwitch('--ignore-ssl-errors');
-app.commandLine.appendSwitch('--ignore-certificate-errors-spki-list');
 
 // Simple development check instead of electron-is-dev
 const isDev = process.env.NODE_ENV === 'development' || process.defaultApp || /[\\/]electron-prebuilt[\\/]/.test(process.execPath) || /[\\/]electron[\\/]/.test(process.execPath);
@@ -131,11 +125,8 @@ function createWindow() {
       contextIsolation: true,
       enableRemoteModule: false,
       preload: path.join(__dirname, 'preload.js'),
-      webSecurity: false, // Allow external API calls
-      allowRunningInsecureContent: true, // Allow mixed content
       experimentalFeatures: true, // Enable experimental web features
       backgroundThrottling: false, // Prevent throttling of background requests
-      additionalArguments: ['--disable-web-security', '--disable-features=VizDisplayCompositor']
     },
     titleBarStyle: 'hidden', // Hide the default title bar
     frame: false, // Remove window frame completely
@@ -157,30 +148,6 @@ function createWindow() {
   // Set user agent
   ses.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 VoidStream/1.0.0');
   
-  // Handle certificate errors
-  ses.setCertificateVerifyProc((request, callback) => {
-    // Allow all certificates for API calls
-    callback(0);
-  });
-
-  // Set permissions for external requests
-  ses.setPermissionRequestHandler((webContents, permission, callback) => {
-    // Allow all permissions for API access
-    callback(true);
-  });
-
-  // Handle CORS and security headers
-  ses.webRequest.onHeadersReceived((details, callback) => {
-    callback({
-      responseHeaders: {
-        ...details.responseHeaders,
-        'Access-Control-Allow-Origin': ['*'],
-        'Access-Control-Allow-Methods': ['GET, POST, PUT, DELETE, OPTIONS'],
-        'Access-Control-Allow-Headers': ['*'],
-      }
-    });
-  });
-
   mainWindow.loadURL(startUrl);
 
   // Show window when ready
